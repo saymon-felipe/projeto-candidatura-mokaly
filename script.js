@@ -11,7 +11,6 @@ function descobrirLargura() {
 //FUNÇÃO QUE INICIARÁ A ANIMAÇÃO
 modal = document.getElementById("modalPermissao")
 if (modal.classList == "show") {
-    console.log(modal)
     iniciarDocumento(0)
 }
 
@@ -31,7 +30,6 @@ function iniciarDocumento(repetir) {
         //DEFININDO VARIÁVEIS
         let avatares = [avatar1, avatar2, avatar3, avatar4, avatar5]
         imagens = ["imagens/mokaly-avatar-cup-2.png", "imagens/mokaly-avatar-cup-3.png", "imagens/mokaly-avatar-cup-4.png", "imagens/mokaly-avatar-cup-5.png", "imagens/mokaly-avatar-cup-6.png" ]
-        console.log(imagens)
         let numeros = []
         let numerosImagens = []
         let x
@@ -50,7 +48,6 @@ function iniciarDocumento(repetir) {
                     numeros.push(x)
                 }
             }
-            console.log(numeros)
         }
         sortearAvatar()
 
@@ -62,7 +59,6 @@ function iniciarDocumento(repetir) {
                     numerosImagens.push(y)
                 }
             }
-            console.log(numerosImagens)
         }
         sortearImagens()
 
@@ -160,7 +156,6 @@ function iniciarDocumento(repetir) {
         //DEFININDO VARIÁVEIS
         let avatares = [avatar1, avatar2, avatar3, avatar4, avatar5]
         imagens = ["imagens/mokaly-avatar-cup-2.png", "imagens/mokaly-avatar-cup-3.png", "imagens/mokaly-avatar-cup-4.png", "imagens/mokaly-avatar-cup-5.png", "imagens/mokaly-avatar-cup-6.png" ]
-        console.log(imagens)
         let numeros = []
         let numerosImagens = []
         let x
@@ -190,7 +185,6 @@ function iniciarDocumento(repetir) {
                     numerosImagens.push(y)
                 }
             }
-            console.log(numerosImagens)
         }
         sortearImagens()
 
