@@ -1,7 +1,7 @@
 # TESTE FINAL MOKALY
 *Feito com HTML, CSS E JAVASCRIPT*
 
-[**LINK SITE:**](https://saymon-felipe.github.io/projeto-candidatura-mokaly/)
+[**VISITE O SITE!**](https://saymon-felipe.github.io/projeto-candidatura-mokaly/)
 
 
 ### O projeto deve conter
