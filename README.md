@@ -1,6 +1,9 @@
 # TESTE FINAL MOKALY
 *Feito com HTML, CSS E JAVASCRIPT*
 
+[**LINK SITE:**](https://saymon-felipe.github.io/projeto-candidatura-mokaly/)
+
+
 ### O projeto deve conter
 
 - Uma página html toda vermelha (fundo) e um logotipo svg centralizado no meio da página.
@@ -21,5 +24,5 @@
 
 ##### Durante a execução da animação o botão de “Repetir animação” deve ficar oculto e só deve reaparecer após a conclusão do fluxo de animação + play do audio.
 
-#### Obs 1 (Importante): ##### Em telas abaixo de 768px os elementos devem descer do topo para o final da página, enquanto em telas a partir de 768px os elementos devem subir do rodapé para o topo, como descrito no requisito acima. 
+#### Obs 1 (Importante): Em telas abaixo de 768px os elementos devem descer do topo para o final da página, enquanto em telas a partir de 768px os elementos devem subir do rodapé para o topo, como descrito no requisito acima. 
 
