@@ -8,9 +8,16 @@ function descobrirLargura() {
     return windowWidth
 }
 
+//FUNÇÃO QUE INICIARÁ A ANIMAÇÃO
+modal = document.getElementById("modalPermissao")
+if (modal.classList == "show") {
+    console.log(modal)
+    iniciarDocumento(0)
+}
+
 //FUNÇÃO QUE LISTA AS IMAGENS EM UM ARRAY
 
-function iniciarDocumento(som, repetir) {
+function iniciarDocumento(repetir) {
 
     //TESTE SE É A PRIMEIRA VEZ QUE ACONTECE ANIMAÇÕES
     if(repetir == 1) {
@@ -67,9 +74,7 @@ function iniciarDocumento(som, repetir) {
 
                 //TOCAR AUDIO E MOSTRAR BOTAO
                 if(counter+1 >= 6) {
-                    if (som == 1) {
-                        setTimeout(tocarAudio, 1000)
-                    }
+                    setTimeout(tocarAudio, 1000)
                     setTimeout(mostrarBotao, 2000)
                 }
 
@@ -91,9 +96,7 @@ function iniciarDocumento(som, repetir) {
 
                 //TOCAR AUDIO E MOSTRAR BOTAO
                 if(counter+1 >= 6) {
-                    if (som == 1) {
-                        setTimeout(tocarAudio, 1000)
-                    }
+                    setTimeout(tocarAudio, 1000)
                     setTimeout(mostrarBotao, 2000)
                 } 
 
@@ -199,9 +202,7 @@ function iniciarDocumento(som, repetir) {
 
                 //TOCAR AUDIO E MOSTRAR BOTAO
                 if(counter+1 >= 6) {
-                    if (som == 1) {
-                        setTimeout(tocarAudio, 1000)
-                    }
+                    setTimeout(tocarAudio, 1000)
                     setTimeout(mostrarBotao, 2000)
                 } 
 
@@ -223,9 +224,7 @@ function iniciarDocumento(som, repetir) {
 
                 //TOCAR AUDIO E MOSTRAR BOTAO
                 if(counter+1 >= 6) {
-                    if (som == 1) {
-                        setTimeout(tocarAudio, 1000)
-                    }
+                    setTimeout(tocarAudio, 1000)
                     setTimeout(mostrarBotao, 2000)
                 } 
 
