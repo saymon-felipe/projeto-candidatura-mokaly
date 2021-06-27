@@ -62,9 +62,9 @@ function iniciarDocumento(repetir) {
 
     //FUNÇÃO PARA SORTEAR A QUANTIDADE DE PIXELS DE TRANSLATE
     function pixelsTranslate() {
-        let x = sortear((descobrirLargura()-300))
-        if (x < 100) {
-            x += 100
+        let x = sortear((descobrirLargura()-30))
+        if (x < 30) {
+            x += 30
         }
         return x
     }
