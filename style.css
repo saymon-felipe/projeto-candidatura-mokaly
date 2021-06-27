@@ -78,7 +78,7 @@ button.botao:active {
 
 @keyframes animationCima {
     0% {
-        transform: translateY(0px);
+        transform: translateY(5vh);
     }
     30% {
         opacity: 1;
@@ -87,14 +87,14 @@ button.botao:active {
         opacity: 1;
     }
     100% {
-        transform: translateY(-580px);
+        transform: translateY(-85vh);
         opacity: 0;
     }
 }
 
 @keyframes animationBaixo {
     0% {
-        transform: translateY(-600px);
+        transform: translateY(-85vh);
     }
     30% {
         opacity: 1;
@@ -103,7 +103,7 @@ button.botao:active {
         opacity: 1;
     }
     100% {
-        transform: translateY(0px);
+        transform: translateY(5vh);
         opacity: 0;
     }
 }
