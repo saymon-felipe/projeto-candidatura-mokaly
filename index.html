@@ -7,11 +7,12 @@
     <title>MOKALY TEST</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="imagens/mokaly-avatar-cup-3.png">
 </head>
 <body onresize="descobrirLargura()">
     
     <!--LOGO-->
-    <div class="container text-center d-flex flex-collumn">
+    <div class="logo text-center d-flex flex-column">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 343.8 75.13">
             <g id="Layer_2" data-name="Layer 2">
               <g id="Layer_1-2" data-name="Layer 1">
@@ -35,13 +36,23 @@
 
     <!--AVATARES-->
     <footer>
-        <div class="d-flex justify-content-between avatares mx-auto">
-            <img src="imagens/mokaly-avatar-cup-2.png" id="avatar1" class="avatar">
-            <img src="imagens/mokaly-avatar-cup-3.png" id="avatar2" class="avatar">
-            <img src="imagens/mokaly-avatar-cup-4.png" id="avatar3" class="avatar">
-            <img src="imagens/mokaly-avatar-cup-5.png" id="avatar4" class="avatar">
-            <img src="imagens/mokaly-avatar-cup-6.png" id="avatar5" class="avatar">
-        </div>
+          <div class="avatares d-flex">
+            <div id="translateX1">
+              <img src="imagens/mokaly-avatar-cup-2.png" id="avatar1" class="avatar">
+            </div>
+            <div id="translateX2">
+              <img src="imagens/mokaly-avatar-cup-3.png" id="avatar2" class="avatar">
+            </div>
+            <div id="translateX3">
+              <img src="imagens/mokaly-avatar-cup-4.png" id="avatar3" class="avatar">
+            </div>
+            <div id="translateX4">
+              <img src="imagens/mokaly-avatar-cup-5.png" id="avatar4" class="avatar">
+            </div>
+            <div id="translateX5">
+              <img src="imagens/mokaly-avatar-cup-6.png" id="avatar5" class="avatar">
+            </div>
+          </div>
     </footer>
 
     <!--MODAL CONFIRMAÇÃO-->
@@ -68,9 +79,11 @@
     <audio src="audios/matrix_room_enter.mp3" preload id="audio"></audio>
 
     <!--SCRIPTS-->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
+    <div>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <script src="script.js"></script>
+    </div>
 </body>
 </html>
