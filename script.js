@@ -62,9 +62,9 @@ function iniciarDocumento(repetir) {
 
     //FUNÇÃO PARA SORTEAR A QUANTIDADE DE PIXELS DE TRANSLATE
     function pixelsTranslate() {
-        let x = sortear((descobrirLargura()-70))
-        if (x < 70) {
-            x += 70
+        let x = sortear((descobrirLargura()-90))
+        if (x < 48) {
+            x += 30
         }
         return x
     }
@@ -76,27 +76,24 @@ function iniciarDocumento(repetir) {
 
         //TOCAR AUDIO, MOSTRAR BOTAO SE ANIMAÇÃO JÁ TIVER SIDO CONCLUÍDA E RESETA POSIÇÕES NO EIXO X
         if(counter >= 4) {
-            setTimeout(resetaTranslateX, 2800)
-            setTimeout(tocarAudio, 2800)
+            setTimeout(resetaTranslateX, 2600)
+            setTimeout(tocarAudio, 2600)
             setTimeout(mostrarBotao, 3600)
         }
 
         //TROCA DE CLASSES, IMAGENS E POSIÇÃO NO EIXO X
         if (avatares[numeros[counter]].classList == "avatar") {
-            let pixels = pixelsTranslate()
+            translate[numeros[counter]].style.transform = "translateX(" + pixelsTranslate() + "px)"
+            avatares[numeros[counter]].src = `imagens/mokaly-avatar-cup-${numerosImagens[counter]+2}.png`
 
             //TESTAGEM PARA SABER A LARGURA DA TELA
             if (descobrirLargura() < 768) {
-                //ANIMAÇÃO PARA BAIXO
+                //ANIMAÇÃO PARA CIMA
                 avatares[numeros[counter]].classList.add("avatar", "animacaoBaixo")
             } else {
-                pixels -= 150
-                //ANIMAÇÃO PARA CIMA
+                //ANIMAÇÃO PARA BAIXO
                 avatares[numeros[counter]].classList.add("avatar", "animacaoCima")
             }
-
-            translate[numeros[counter]].style.transform = "translateX(" + pixels + "px)"
-            avatares[numeros[counter]].src = `imagens/mokaly-avatar-cup-${numerosImagens[counter]+2}.png`
         }
         counter++
 
